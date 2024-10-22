@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hub - Your Ticket Station</title>
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet" />
+		<!-- Bootstrap Icons -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+			rel="stylesheet" />
+		<style>
+			.hero,
+			.gradient-bg {
+				background: linear-gradient(135deg, #8a2be2, #ffd700);
+				color: #fff;
+				padding: 4rem 0;
+			}
+			.feature-icon {
+				font-size: 2rem;
+				color: #0d6efd;
+			}
+			.testimonial-stars {
+				color: #ffc107;
+			}
+			.card {
+				transition: transform 0.3s;
+			}
+			.card:hover {
+				transform: translateY(-5px);
+			}
+		</style>
+	</head>
+	<body>
+		<header class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<i class="bi bi-ticket-perforated me-2"></i>
+					Hub
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#events">Events</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#venues">Venues</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="container text-center">
+					<h1 class="display-4 mb-4">Your Hub for Event Tickets</h1>
+					<p class="lead mb-4">
+						Discover and book tickets for the hottest concerts and events
+						in your area.
+					</p>
+					<form class="d-flex justify-content-center">
+						<input
+							class="form-control me-2"
+							style="max-width: 300px"
+							type="search"
+							placeholder="Search events..." />
+						<button class="btn btn-outline-light" type="submit">
+							Search
+						</button>
+					</form>
+				</div>
+			</section>
+
+			<section class="py-5 bg-light" id="events">
+				<div class="container">
+					<h2 class="text-center mb-5">Featured Events</h2>
+					<div class="row mb-4">
+						<div class="col-md-3">
+							<div class="card h-100">
+								<div class="card-body text-center">
+									<i
+										class="bi bi-music-note-beamed feature-icon mb-3"></i>
+									<h3 class="card-title">Music</h3>
+									<p class="card-text">
+										Discover the hottest concerts and music festivals.
+									</p>
+									<a href="#" class="btn btn-outline-primary"
+										>Explore Music Events</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="card h-100">
+								<div class="card-body text-center">
+									<i class="bi bi-heart feature-icon mb-3"></i>
+									<h3 class="card-title">Charity</h3>
+									<p class="card-text">
+										Support great causes at charity events and
+										fundraisers.
+									</p>
+									<a href="#" class="btn btn-outline-primary"
+										>Find Charity Events</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="card h-100">
+								<div class="card-body text-center">
+									<i class="bi bi-flag feature-icon mb-3"></i>
+									<h3 class="card-title">Car Shows</h3>
+									<p class="card-text">
+										Experience the thrill of automotive exhibitions.
+									</p>
+									<a href="#" class="btn btn-outline-primary"
+										>View Car Shows</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="card h-100">
+								<div class="card-body text-center">
+									<i class="bi bi-film feature-icon mb-3"></i>
+									<h3 class="card-title">Film Festivals</h3>
+									<p class="card-text">
+										Enjoy the best of cinema at film screenings and
+										festivals.
+									</p>
+									<a href="#" class="btn btn-outline-primary"
+										>Browse Film Events</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h3 class="text-center mb-4">Upcoming Events</h3>
+					<div class="row">
+						<div class="col-md-4 mb-4">
+							<div class="card">
+								<img
+									src="images/festival 1.jpeg"
+									class="card-img-top"
+									alt="Summer Music Festival" />
+								<div class="card-body">
+									<h5 class="card-title">Summer Music Festival</h5>
+									<p class="card-text">
+										<i class="bi bi-calendar me-2"></i>July 15-17,
+										2024
+									</p>
+									<p class="card-text">
+										<i class="bi bi-geo-alt me-2"></i>Central Park,
+										New York
+									</p>
+									<a
+										href="event-details-summer-music-festival.html"
+										class="btn btn-primary"
+										>Get Tickets</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="card">
+								<img
+									src="images/met gala 1.jpeg"
+									class="card-img-top"
+									alt="Charity Gala" />
+								<div class="card-body">
+									<h5 class="card-title">Annual Charity Gala</h5>
+									<p class="card-text">
+										<i class="bi bi-calendar me-2"></i>August 5, 2024
+									</p>
+									<p class="card-text">
+										<i class="bi bi-geo-alt me-2"></i>Hilton Hotel,
+										Los Angeles
+									</p>
+									<a
+										href="event-details-charity-gala.html"
+										class="btn btn-primary"
+										>Get Tickets</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="card">
+								<img
+									src="images/car show 1.jpeg"
+									class="card-img-top"
+									alt="Classic Car Show" />
+								<div class="card-body">
+									<h5 class="card-title">Classic Car Show 2024</h5>
+									<p class="card-text">
+										<i class="bi bi-calendar me-2"></i>September
+										10-12, 2024
+									</p>
+									<p class="card-text">
+										<i class="bi bi-geo-alt me-2"></i>Convention
+										Center, Chicago
+									</p>
+									<a
+										href="event-details-car-show.html"
+										class="btn btn-primary"
+										>Get Tickets</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="py-5">
+				<div class="container">
+					<h2 class="text-center mb-5">How It Works</h2>
+					<div class="row">
+						<div class="col-md-4 text-center mb-4">
+							<i class="bi bi-search feature-icon mb-3"></i>
+							<h3>Search</h3>
+							<p>Find your favorite events and concerts in your area.</p>
+						</div>
+						<div class="col-md-4 text-center mb-4">
+							<i class="bi bi-ticket-perforated feature-icon mb-3"></i>
+							<h3>Book</h3>
+							<p>Secure your tickets with our easy booking process.</p>
+						</div>
+						<div class="col-md-4 text-center mb-4">
+							<i class="bi bi-music-note-beamed feature-icon mb-3"></i>
+							<h3>Enjoy</h3>
+							<p>Attend your event and create lasting memories.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="py-5 bg-light">
+				<div class="container">
+					<h2 class="text-center mb-5">What Our Users Say</h2>
+					<div class="row">
+						<div class="col-md-4 mb-4">
+							<div class="card">
+								<div class="card-body">
+									<div class="testimonial-stars mb-3">
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+									</div>
+									<p class="card-text">
+										"Hub made it so easy to find and book tickets for
+										my favorite band. Great experience!"
+									</p>
+									<p class="card-text"><strong>- Sarah M.</strong></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="card">
+								<div class="card-body">
+									<div class="testimonial-stars mb-3">
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+									</div>
+									<p class="card-text">
+										"I love how user-friendly the platform is. Found
+										great local events I didn't know about!"
+									</p>
+									<p class="card-text"><strong>- John D.</strong></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 mb-4">
+							<div class="card">
+								<div class="card-body">
+									<div class="testimonial-stars mb-3">
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star"></i>
+									</div>
+									<p class="card-text">
+										"The variety of events available on Hub is
+										impressive. Always find something exciting to do!"
+									</p>
+									<p class="card-text"><strong>- Emily R.</strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="py-5 gradient-bg text-white">
+				<div class="container text-center">
+					<h2 class="mb-4">Stay Updated</h2>
+					<p class="mb-4">
+						Subscribe to our newsletter for the latest events and
+						exclusive offers.
+					</p>
+					<form class="row justify-content-center">
+						<div class="col-auto">
+							<input
+								type="email"
+								class="form-control"
+								placeholder="Enter your email" />
+						</div>
+						<div class="col-auto">
+							<button type="submit" class="btn btn-primary">
+								Subscribe
+							</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="py-5 bg-light">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 mb-4 mb-md-0">
+						<h5>About Hub</h5>
+						<p>
+							Hub is your one-stop destination for event tickets. We
+							provide easy access to a wide range of events, from
+							concerts to sports games.
+						</p>
+					</div>
+					<div class="col-md-4 mb-4 mb-md-0">
+						<h5>Contact Us</h5>
+						<p>
+							<i class="bi bi-telephone-fill me-2"></i>+1 (555) 123-4567
+						</p>
+						<p>
+							<i class="bi bi-envelope-fill me-2"></i>info@hubtickets.com
+						</p>
+					</div>
+					<div class="col-md-4">
+						<h5>Our Offices</h5>
+						<p>
+							<strong>New York:</strong><br />
+							123 Broadway, Suite 100<br />
+							New York, NY 10001
+						</p>
+						<p>
+							<strong>Los Angeles:</strong><br />
+							456 Hollywood Blvd, Suite 200<br />
+							Los Angeles, CA 90028
+						</p>
+					</div>
+				</div>
+				<hr class="my-4" />
+				<div class="row">
+					<div class="col-md-6 text-center text-md-start">
+						<p class="mb-0">
+							&copy; 2024 Hub Ticket Station. All rights reserved.
+						</p>
+					</div>
+					<div class="col-md-6 text-center text-md-end">
+						<a href="#" class="text-muted me-2">Terms of Service</a>
+						<a href="#" class="text-muted">Privacy Policy</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
